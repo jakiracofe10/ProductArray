@@ -3,7 +3,7 @@
 using namespace std;
 
 //Time: O(2n)
-//Space: O(1)?
+//Space: O(n)
 
 int* calculateProductArray(int* arr, int n) {
     int* prod = new int[5];
